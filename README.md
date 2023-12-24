@@ -2,6 +2,8 @@
 
 This project is a multi-select application built with React and TypeScript, themed around the popular TV show Rick and Morty. The application allows users to search and select characters from the show.
 
+[Try it](https://rick-and-morty-multi-select-phi.vercel.app/)
+
 ![MultiSelect](resources/multiselect.gif)
 
 ## Features
