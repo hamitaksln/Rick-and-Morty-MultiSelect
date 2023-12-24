@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Rick and Morty MultiSelect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a multi-select application built with React and TypeScript, themed around the popular TV show Rick and Morty. The application allows users to search and select characters from the show.
 
-Currently, two official plugins are available:
+## Features
+- Character Selection: Users can select multiple characters from a list. The list is fetched from the Rick and Morty API.
+- Search and Filter: Users can search for characters by name.
+- Animations: Layouts have some animations that incrases visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Setup and Installation
+- Clone the repository to your local machine.
+- Install the dependencies using `yarn`.
+- Start the development server using `yarn dev`.
